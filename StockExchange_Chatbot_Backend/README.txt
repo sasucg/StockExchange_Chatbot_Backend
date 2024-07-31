@@ -16,3 +16,9 @@ Implementing REST Apis on Chatbot Controller:
 				->> SET HTTP POST
 				->> provide valid userId, entityId, entityTypeId, 
 				->> setcontent-type: application/json
+
+Tables & Entities: 
+-> StockExchange
+-> Stock
+-> EntityType	-> used as a dictionary of entities: Stock / StockExchange
+-> UserHistory	-> Used to store user activity navigating in chatbot
