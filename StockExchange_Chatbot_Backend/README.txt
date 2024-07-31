@@ -11,7 +11,7 @@ I created tables in a local database & I populated according to JSON
 Implementing REST Apis on Chatbot Controller: 
 -> GetStockExchange 		-> http://localhost:5174/api/Chatbot/stockExchange 		// get all stockExchanges
 -> GetStocksByStockExchangeId 	-> http://localhost:5174/api/Chatbot/stockExchange/1/stocks 	// get stocks for a stockExchange
--> GetStockById			
+-> GetStockById			-> http://localhost:5174/api/Chatbot/stockExchange/stocks/1		//get stock by id
 -> SaveUserActivity		-> http://localhost:5174/api/Chatbot/stockExchange 		// save user activity
 				->> SET HTTP POST
 				->> provide valid userId, entityId, entityTypeId, 
