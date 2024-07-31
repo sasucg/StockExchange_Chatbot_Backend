@@ -1,0 +1,6 @@
+@StockExchange_Chatbot_Backend_HostAddress = http://localhost:5174
+
+GET {{StockExchange_Chatbot_Backend_HostAddress}}/swagger/
+Accept: application/json
+
+###
